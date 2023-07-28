@@ -47,11 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+My goal is to make a plant monitor that can be controlled by one's phone. To do this, the first main step was to make the Arduino Uno Rev3 board connect to Blynk through WiFi. Blynk is a software that can be used on mobile devices and enables its users to access their devices such as the Arduino thanks to the WiFi connection; in this project, Blynk will be used to check and use the plant monitor. But, before I could do that, I had to make the Arduino and ESP8266 connect to my WiFi. I configured the ESP8266 by wiring it with a breadboard to the Arduino and writing code in Arduino IDE. Once I successfully made my circuit and connected it to the same WiFi as Blynk, I was able to connect it to Blynk and finish my first milestone.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
