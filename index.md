@@ -46,7 +46,7 @@ For your second milestone, explain what you've worked on since your previous mil
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+ 
 My goal is to make a plant monitor that can be controlled by one's phone. To do this, the first main step was to make the Arduino Uno Rev3 board connect to Blynk through WiFi. Blynk is a software that can be used on mobile devices and enables its users to access their devices such as the Arduino thanks to the WiFi connection; in this project, Blynk will be used to check and use the plant monitor. But, before I could do that, I had to make the Arduino and ESP8266 connect to my WiFi. I configured the ESP8266 by wiring it with a breadboard to the Arduino and writing code in Arduino IDE. Once I successfully made my circuit and connected it to the same WiFi as Blynk, I was able to connect it to Blynk and finish my first milestone.
 
 # Schematics 
