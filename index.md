@@ -71,7 +71,7 @@ SoftwareSerial espSerial(2, 3); //Rx,Tx
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-// Your WiFi credentials (mine are private)
+// WiFi credentials (mine are private)
 char ssid[] = "*****";
 char pass[] = "*****";
 
