@@ -47,21 +47,22 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-&nbsp; My goal is to make a plant monitor that can be controlled by one's phone. To do this, the first main step was to make the Arduino Uno Rev3 board connect to Blynk through WiFi. Blynk is a software that can be used on mobile devices and enables its users to access their devices such as the Arduino thanks to the WiFi connection; in this project, Blynk will be used to check and use the plant monitor. But, before I could do that, I had to make the Arduino and ESP8266 connect to my WiFi. I configured the ESP8266 by wiring it with a breadboard to the Arduino and writing code in Arduino IDE. Once I successfully made my circuit and connected it to the same WiFi as Blynk, I was able to connect it to Blynk and finish my first milestone.
+&nbsp; My goal is to make a plant monitor that can be controlled by one's phone. To do this, the first main step was to make the Arduino Uno Rev3 board connect to Blynk through WiFi. Blynk is a software that can be used on mobile devices and enables its users to access their devices such as the Arduino thanks to the WiFi connection they share; in this project, Blynk will be used to check and use the plant monitor. But, before I could do that, I had to make the Arduino and ESP8266 connect to my WiFi. I configured the ESP8266 by wiring it with a breadboard to the Arduino and writing code in Arduino IDE. Once I successfully made my circuit and connected it to the same WiFi as Blynk, I was able to connect it to Blynk and finish my first milestone.
 
 # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. -->
 
 # Code
-<!--- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial espSerial(2, 3); //Rx,Tx
 
-#define BLYNK_TEMPLATE_ID "TMPL2u0R_JC0M"
-#define BLYNK_TEMPLATE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "_xYlABnt0AHIAi77BRkQeXYMJA-2RVK5"
+// Template ID, Device Name and Auth Token are provided by the Blynk.Cloud (mine are private)
+// See the Device Info tab, or Template settings
+#define BLYNK_TEMPLATE_ID "*****"
+#define BLYNK_TEMPLATE_NAME "*****"
+#define BLYNK_AUTH_TOKEN "*****"
 
 #define BLYNK_PRINT Serial
 
@@ -70,11 +71,9 @@ SoftwareSerial espSerial(2, 3); //Rx,Tx
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-// Your WiFi credentials (mine are private).
+// Your WiFi credentials (mine are private)
 char ssid[] = "*****";
 char pass[] = "*****";
-
-// #define EspSerial Serial1
 
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(2, 3); // RX, TX
