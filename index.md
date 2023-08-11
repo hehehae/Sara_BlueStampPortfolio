@@ -1,8 +1,6 @@
 # Plant Monitor
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
-<!--- You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions: -->
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Sara N. | Los Gatos High School | Astronautical Engineering | Incoming Junior
@@ -95,19 +93,15 @@ void loop()
 ```
 
 # Bill of Materials
-<!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
 
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Arduino Uno Rev3 | It is the main part of the circuit; a programable board that takes in commands from code. | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
-<!--- # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here. -->
+| **Part** | **Note** | **Price** | **Link**|
+|:--:|:--:|:-:|:-:|
+| Arduino Uno Rev3 | It is the main part of the circuit; a programable board that takes in commands from code. |
+| Breadboard | It connects different components of the circuit together. |
+| Wires | It connects different components of the circuit together. |
+| ESP8266 Chip | It allows the circuit to connect to WiFi. |
+| Photoresistor | It measures the intensity of light. |
+| Resistor | It regulates the flow of the electrical current in a circuit. |
+| DHTT Humidity Sensor | It measures the humidity and temperature of its environment. |
+| Soil Moisture Module | It measures the amount of moisture in its environment. |
+| Mini Water Pump & Tubing | It pumps water through the tubing and waters the plant. | $2.75/piece | https://www.amazon.com/Sipytoph-Submersible-Flexible-Aquariums-Hydroponics/dp/B097F4576N/ref=sr_1_10?crid=26A14MLYTSWWB&keywords=DC+mini+water+pump+DC&qid=1691594612&sprefix=dc+mini+water+pump+dc%2Caps%2C134&sr=8-10 |
